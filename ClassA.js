@@ -1,6 +1,6 @@
 class ClassA {
-  constructor(height, width) {
-    this.height = height * 2;
-    this.width = width * 2 ;
+  constructor(height: number, width: number) {
+    this.height = height;
+    this.width = width;
   }
 }
